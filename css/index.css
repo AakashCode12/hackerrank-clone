@@ -30,6 +30,29 @@ nav {
   padding-top: 2%;
   padding-bottom: 2%;
 }
+.form-inline {
+  float: right;
+}
+input[type="text"] {
+  width: 130px;
+  box-sizing: border-box;
+
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  background-color: #39424e;
+  background-image: url("svg/search.svg");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.01s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+  border: none;
+}
 /**================================================================
 *? Navbar Ends Here
 **==================================================================*/
@@ -49,15 +72,3 @@ a:focus {
 /**================================================================
 *todo Button Common changes Ends Here
 **==================================================================*/
-.navbar-nav > li {
-  float: left;
-  position: relative;
-}
-.navbar-light .navbar-nav .active a::after {
-  border-bottom: 5px solid #5bc0eb;
-  bottom: -10px;
-  content: " ";
-  left: 0;
-  position: absolute;
-  right: 0;
-}
