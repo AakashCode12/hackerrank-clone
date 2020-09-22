@@ -2,6 +2,9 @@
   margin: 0;
   padidng: 0;
 }
+/**================================================================
+*! Navbar Starts Here
+**==================================================================*/
 nav {
   background-color: #39424e;
 }
@@ -14,4 +17,40 @@ nav {
 }
 .nav-link:hover {
   color: white !important;
+}
+
+.nav-item a.active {
+  border-bottom: 4px solid #1ba94c;
+  overflow: hidden;
+}
+/**================================================================
+*? Navbar Ends Here
+**==================================================================*/
+/*todo ////////////////////////////////////////////////////////////*/
+/**================================================================
+*todo Outside box on focus removed in bootstrap
+**==================================================================*/
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/**================================================================
+*todo Button Common changes Ends Here
+**==================================================================*/
+.navbar-nav > li {
+  float: left;
+  position: relative;
+}
+.navbar-light .navbar-nav .active a::after {
+  border-bottom: 5px solid #5bc0eb;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
 }
