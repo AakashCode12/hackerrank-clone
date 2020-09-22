@@ -8,7 +8,18 @@
 nav {
   background-color: #39424e;
 }
-
+.container1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-left: 10%;
+}
 .nav-link {
   color: #b7c9cc !important;
   transition-delay: 0.01s;
