@@ -4034,7 +4034,7 @@ input[type="submit"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  /*padding: 0.5rem 1rem;*/ /*removed to line bottom*/
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -4328,11 +4328,11 @@ input[type="submit"].btn-block {
 }
 .navbar-expand .navbar-nav .dropdown-menu {
   position: absolute;
-}
+} /*
 .navbar-expand .navbar-nav .nav-link {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-}
+}*/
 .navbar-expand > .container,
 .navbar-expand > .container-fluid,
 .navbar-expand > .container-lg,

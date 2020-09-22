@@ -18,9 +18,17 @@ nav {
 .nav-link:hover {
   color: white !important;
 }
+.navbar-brand img.navbar-brand-logo {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
 
 .active {
-  border-bottom: 4px solid #1ba94c;
+  border-bottom: 6px solid #1ba94c;
+}
+.spacing {
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 /**================================================================
 *? Navbar Ends Here
