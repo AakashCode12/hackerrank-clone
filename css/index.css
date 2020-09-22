@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padidng: 0;
+}
+nav {
+  background-color: #39424e;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: #b7c9cc !important;
+  transition-delay: 0.01s;
+  font-weight: 600;
+}
+.nav-link:hover {
+  color: white !important;
+}
