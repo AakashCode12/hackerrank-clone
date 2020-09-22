@@ -18,12 +18,15 @@ nav {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-left: 10%;
-  margin-left: 10%;
+  margin-right: 10%;
 }
 .nav-link {
   color: #b7c9cc !important;
   transition-delay: 0.01s;
   font-weight: 600;
+}
+.activatednavlink {
+  color: white !important;
 }
 .nav-link:hover {
   color: white !important;
@@ -78,7 +81,16 @@ input[type="text"]:focus {
 .user-id a:link {
   color: red;
 }
-
+svg.bi-bell {
+  stroke-width: 2;
+}
+.navbar-toggler {
+  background-color: #0ee3ff !important;
+  border: none !important;
+}
+.searchkabox {
+  flex: 1;
+}
 /**================================================================
 *? Navbar Ends Here
 **==================================================================*/
