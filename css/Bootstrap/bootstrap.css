@@ -189,7 +189,7 @@ img {
   border-style: none;
 }
 svg {
-  overflow: hidden;
+  /*overflow: hidden;*/ /*!!!!!!!!!!!!!!!!!!!!!!!!1*/
   vertical-align: middle;
 }
 table {
