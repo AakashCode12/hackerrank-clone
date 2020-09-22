@@ -19,9 +19,8 @@ nav {
   color: white !important;
 }
 
-.nav-item a.active {
+.active {
   border-bottom: 4px solid #1ba94c;
-  overflow: hidden;
 }
 /**================================================================
 *? Navbar Ends Here
