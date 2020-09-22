@@ -10,7 +10,6 @@ nav {
 }
 
 .nav-link {
-  text-transform: uppercase;
   color: #b7c9cc !important;
   transition-delay: 0.01s;
   font-weight: 600;
